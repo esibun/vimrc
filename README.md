@@ -3,10 +3,10 @@ My .vimrc file + pathogen plugins
 
 ## Install
 
-  rm -rf ~/.vim
-  git clone https://github.com/esibun/vimrc.git ~/.vim
-  cd ~/.vim
-  sh autoinstall.sh
+    rm -rf ~/.vim
+    git clone https://github.com/esibun/vimrc.git ~/.vim
+    cd ~/.vim
+    sh autoinstall.sh
 
 The script will pull all the plugins and install everything automatically.
 
@@ -14,5 +14,5 @@ The script will pull all the plugins and install everything automatically.
 
 For the latest version of everything:
 
-  cd ~/.vim
-  git pull --recurse-submodules
+    cd ~/.vim
+    git pull --recurse-submodules
