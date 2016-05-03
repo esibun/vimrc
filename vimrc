@@ -20,6 +20,8 @@ let g:UltiSnipsExpandTrigger="`"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+let g:airline#extensions#tabline#enabled = 1
+
 nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
 
