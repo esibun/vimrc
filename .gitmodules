@@ -35,7 +35,7 @@
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "vim-nerdtree"]
-	path = bundle/vim-nerdtree
+	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "nerdtree-ack"]
 	path = bundle/nerdtree-ack
