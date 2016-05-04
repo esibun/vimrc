@@ -10,6 +10,7 @@ set hidden
 syntax on
 set number
 cabbrev stm SyntasticToggleMode
+set ttm=10
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
@@ -26,4 +27,3 @@ nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
 
 execute pathogen#infect()
-call vimtex#init()
