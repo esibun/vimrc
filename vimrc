@@ -21,6 +21,13 @@ let g:UltiSnipsExpandTrigger="`"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+let g:indentLine_color_term = 239
+let g:indentLine_char = ''
+
+hi SpecialKey ctermfg=239
+set list
+set listchars=tab:\\ 
+
 let g:airline#extensions#tabline#enabled = 1
 
 nnoremap <F5> :bprevious<CR>
