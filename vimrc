@@ -23,6 +23,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:indentLine_color_term = 239
 let g:indentLine_char = ''
+let g:indentLine_showFirstIndentLevel = 1
 
 hi SpecialKey ctermfg=239
 set list
@@ -34,3 +35,4 @@ nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
 
 execute pathogen#infect()
+Helptags
