@@ -15,4 +15,4 @@ The script will pull all the plugins and install everything automatically.
 For the latest version of everything:
 
     cd ~/.vim
-    git pull --recurse-submodules
+    sh update.sh
