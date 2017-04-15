@@ -2,6 +2,7 @@
 
 cd ~/.vim
 git submodule update --init --recursive
+mkdir -p backups
 mkdir ycm_build
 cd ycm_build
 cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp

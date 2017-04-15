@@ -5,12 +5,18 @@ set autoindent
 set background=dark
 let g:airline_theme = "solarized"
 set mouse=a
-set ttymouse=xterm2
+if has("mouse_sgr")
+  set ttymouse=sgr
+else
+  set ttymouse=xterm2
+end
 set hidden
 syntax on
 set number
 cabbrev stm SyntasticToggleMode
 set ttm=10
+set backupdir=~/.vim/backups//
+set directory=~/.vim/backups//
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
