@@ -18,6 +18,10 @@ set ttm=10
 set backupdir=~/.vim/backups//
 set directory=~/.vim/backups//
 set backspace=2
+set ts=2
+set sts=2
+set sw=2
+set expandtab
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
