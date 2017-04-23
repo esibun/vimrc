@@ -18,6 +18,7 @@ set ttm=10
 set backupdir=~/.vim/backups//
 set directory=~/.vim/backups//
 set backspace=2
+let g:ycm_server_python_interpreter = '/usr/bin/python'
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
