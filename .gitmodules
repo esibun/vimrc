@@ -52,3 +52,6 @@
 [submodule "bundle/vim-indentguides"]
 	path = bundle/vim-indentguides
 	url = https://github.com/thaerkh/vim-indentguides.git
+[submodule "bundle/ayu-vim"]
+	path = bundle/ayu-vim
+	url = https://github.com/ayu-theme/ayu-vim.git

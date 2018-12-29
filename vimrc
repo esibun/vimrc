@@ -1,9 +1,14 @@
+" Set UTF-8
+scriptencoding utf-8
+set encoding=utf-8
+
+" Load
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 let g:airline_powerline_fonts = 1
 set laststatus=2
 set autoindent
 set background=dark
-let g:airline_theme = "solarized"
+let g:airline_theme = "ayu"
 set mouse=a
 if has("mouse_sgr")
   set ttymouse=sgr
@@ -37,6 +42,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
+
+set listchars=tab:\┆\ ,trail:\·
 
 execute pathogen#infect()
 Helptags
