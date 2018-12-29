@@ -43,3 +43,7 @@ nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
 
 set listchars=tab:\┆\ ,trail:\·
+
+set termguicolors
+let ayucolor="mirage"
+colorscheme ayu
