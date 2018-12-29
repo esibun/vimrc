@@ -10,9 +10,6 @@
 [submodule "vim-airline"]
 	path = pack/autoload/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule "vim-bufferline"]
-	path = bundle/vim-bufferline
-	url = https://github.com/bling/vim-bufferline.git
 [submodule "vim-dispatch"]
 	path = pack/autoload/start/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
@@ -31,9 +28,9 @@
 [submodule "YouCompleteMe"]
 	path = pack/autoload/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "bundle/vim-indentguides"]
+[submodule "vim-indentguides"]
 	path = pack/autoload/start/vim-indentguides
 	url = https://github.com/thaerkh/vim-indentguides.git
-[submodule "bundle/ayu-vim"]
+[submodule "ayu-vim"]
 	path = pack/autoload/start/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim.git
