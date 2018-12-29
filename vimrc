@@ -28,13 +28,10 @@ let g:UltiSnipsExpandTrigger="`"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-let g:indentLine_color_term = 239
-let g:indentLine_char = ''
-let g:indentLine_showFirstIndentLevel = 1
+let g:indentguides_spacechar = '┆'
+let g:indentguides_tabchar = '┆'
 
 hi SpecialKey ctermfg=239
-set list
-set listchars=tab:\\ 
 
 let g:airline#extensions#tabline#enabled = 1
 
