@@ -3,7 +3,6 @@ scriptencoding utf-8
 set encoding=utf-8
 
 " Load
-runtime bundle/vim-pathogen/autoload/pathogen.vim
 let g:airline_powerline_fonts = 1
 set laststatus=2
 set autoindent
@@ -44,6 +43,3 @@ nnoremap <F5> :bprevious<CR>
 nnoremap <F6> :bnext<CR>
 
 set listchars=tab:\┆\ ,trail:\·
-
-execute pathogen#infect()
-Helptags
