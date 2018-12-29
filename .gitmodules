@@ -7,15 +7,9 @@
 [submodule "syntastic"]
 	path = pack/autoload/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "ultisnips"]
-	path = pack/autoload/start/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
 [submodule "vim-airline"]
 	path = pack/autoload/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule "vim-airline-themes"]
-	path = pack/autoload/start/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "vim-bufferline"]
 	path = bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline.git
@@ -25,12 +19,6 @@
 [submodule "vim-fugitive"]
 	path = pack/autoload/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim-javascript"]
-	path = pack/autoload/start/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim-jsx"]
-	path = pack/autoload/start/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
 [submodule "vim-multiple-cursors"]
 	path = pack/autoload/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
@@ -40,15 +28,9 @@
 [submodule "nerdtree-ack"]
 	path = pack/autoload/start/nerdtree-ack
 	url = https://github.com/tyok/nerdtree-ack.git
-[submodule "vim-snippets"]
-	path = pack/autoload/start/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
 [submodule "YouCompleteMe"]
 	path = pack/autoload/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "bundle/vin-pathogen"]
-	path = pack/autoload/start/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/vim-indentguides"]
 	path = pack/autoload/start/vim-indentguides
 	url = https://github.com/thaerkh/vim-indentguides.git
