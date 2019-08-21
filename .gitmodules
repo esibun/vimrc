@@ -4,9 +4,6 @@
 [submodule "securemodelines"]
 	path = pack/autoload/start/securemodelines
 	url = https://github.com/ciaranm/securemodelines.git
-[submodule "syntastic"]
-	path = pack/autoload/start/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim-airline"]
 	path = pack/autoload/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
@@ -25,12 +22,12 @@
 [submodule "nerdtree-ack"]
 	path = pack/autoload/start/nerdtree-ack
 	url = https://github.com/tyok/nerdtree-ack.git
-[submodule "YouCompleteMe"]
-	path = pack/autoload/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "vim-indentguides"]
 	path = pack/autoload/start/vim-indentguides
 	url = https://github.com/thaerkh/vim-indentguides.git
 [submodule "ayu-vim"]
 	path = pack/autoload/start/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim.git
+[submodule "pack/autoload/start/coc.nvim"]
+	path = pack/autoload/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
