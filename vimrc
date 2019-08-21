@@ -54,5 +54,9 @@ set termguicolors
 let ayucolor="mirage"
 colorscheme ayu
 
+" Tmux workaround
+set t_8f=[38;2;%lu;%lu;%lum
+set t_8b=[48;2;%lu;%lu;%lum
+
 " Load helptags, ignoring errors
 silent! helptags ALL
